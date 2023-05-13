@@ -1,5 +1,5 @@
-window.addEventListener('load', function() {
-    var slider = document.querySelector('.slider');
+window.addEventListener('DOMContentLoaded', function() {
+      var slider = document.querySelector('.slider');
     var slides = slider.getElementsByClassName('slide');
     var currentSlide = 0;
   
@@ -7,7 +7,7 @@ window.addEventListener('load', function() {
       for (var i = 0; i < slides.length; i++) {
         slides[i].classList.remove('active');
       }
-    
+  
       slides[n].classList.add('active');
       currentSlide = n;
     }
@@ -27,6 +27,8 @@ window.addEventListener('load', function() {
       }
       showSlide(currentSlide);
     }
+
+    showSlide(currentSlide)
   
     // Automatic slideshow
     setInterval(nextSlide, 5000); // Change slide every 5 seconds
