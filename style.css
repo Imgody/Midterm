@@ -68,20 +68,20 @@ ul {
 .slider {
 	width: 100%;
 	overflow: hidden;
-  }
+	  }
   
-  .slide {
+	  .slide {
 	display: none;
-  }
+	  }
   
-  .slide img {
+	  .slide img {
 	width: 100%;
 	height: auto;
-  }
+	  }
   
-  .slide.active {
-	display: block;
-  }  
+	  .slide.active {
+	display: show;
+	  } 
 
 footer {
 	background-color: #333;
