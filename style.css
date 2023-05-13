@@ -65,6 +65,37 @@ ul {
 	margin-left: 20px;
 }
 
+.slider {
+	width: 100%;
+	overflow: hidden;
+  }
+  
+  .slide {
+	display: none;
+  }
+  
+  .slide img {
+	width: 100%;
+	height: auto;
+  }
+  
+  .slide.active {
+	display: block;
+  }  
+
 footer {
 	background-color: #333;
 }
+
+@media screen and (max-width: 768px) {
+	/* Styles for smaller screens */
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+	/* Styles for medium-sized screens */
+  }
+  
+  @media screen and (min-width: 1025px) {
+	/* Styles for larger screens */
+  }
+  
